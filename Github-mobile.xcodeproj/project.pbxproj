@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0148775B27EC9D78009FA128 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775A27EC9D78009FA128 /* FollowerListVC.swift */; };
+		0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775C27ECB71D009FA128 /* String+Ext.swift */; };
 		0150154327EAE8A90006086F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150154227EAE8A90006086F /* AppDelegate.swift */; };
 		0150154527EAE8A90006086F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150154427EAE8A90006086F /* SceneDelegate.swift */; };
 		0150154C27EAE8AB0006086F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0150154B27EAE8AB0006086F /* Assets.xcassets */; };
@@ -15,9 +17,12 @@
 		0150155A27EAF4AD0006086F /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150155927EAF4AD0006086F /* FavoriteListVC.swift */; };
 		0150155C27EB0DB70006086F /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150155B27EB0DB70006086F /* GFButton.swift */; };
 		0150155E27EB12BF0006086F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150155D27EB12BF0006086F /* GFTextField.swift */; };
+		669955689F379EB19685A9B6 /* Pods_Github_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84FD2BB5937E20D5B7C3226 /* Pods_Github_mobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0148775A27EC9D78009FA128 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		0148775C27ECB71D009FA128 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		0150153F27EAE8A90006086F /* Github-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0150154227EAE8A90006086F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0150154427EAE8A90006086F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +34,9 @@
 		0150155927EAF4AD0006086F /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		0150155B27EB0DB70006086F /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		0150155D27EB12BF0006086F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		7F9B18D56D999F006FB25034 /* Pods-Github-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-mobile.release.xcconfig"; path = "Target Support Files/Pods-Github-mobile/Pods-Github-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		98B93445555E9649A45DD787 /* Pods-Github-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-mobile.debug.xcconfig"; path = "Target Support Files/Pods-Github-mobile/Pods-Github-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		B84FD2BB5937E20D5B7C3226 /* Pods_Github_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669955689F379EB19685A9B6 /* Pods_Github_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +56,8 @@
 			children = (
 				0150154127EAE8A90006086F /* Github-mobile */,
 				0150154027EAE8A90006086F /* Products */,
+				2792DACC3113D49417F6D37E /* Pods */,
+				3E076CB03412B59EFA2EF2F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,12 +78,31 @@
 				0150155727EAF47A0006086F /* SearchVC.swift */,
 				0150155B27EB0DB70006086F /* GFButton.swift */,
 				0150155D27EB12BF0006086F /* GFTextField.swift */,
+				0148775A27EC9D78009FA128 /* FollowerListVC.swift */,
+				0148775C27ECB71D009FA128 /* String+Ext.swift */,
 				0150154B27EAE8AB0006086F /* Assets.xcassets */,
 				0150154D27EAE8AB0006086F /* LaunchScreen.storyboard */,
 				0150155027EAE8AB0006086F /* Info.plist */,
 				0150155627EAF26F0006086F /* .gitignore.md */,
 			);
 			path = "Github-mobile";
+			sourceTree = "<group>";
+		};
+		2792DACC3113D49417F6D37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B93445555E9649A45DD787 /* Pods-Github-mobile.debug.xcconfig */,
+				7F9B18D56D999F006FB25034 /* Pods-Github-mobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E076CB03412B59EFA2EF2F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B84FD2BB5937E20D5B7C3226 /* Pods_Github_mobile.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0150155327EAE8AB0006086F /* Build configuration list for PBXNativeTarget "Github-mobile" */;
 			buildPhases = (
+				EAF612E743D7C7A5956EAFD7 /* [CP] Check Pods Manifest.lock */,
 				0150153B27EAE8A90006086F /* Sources */,
 				0150153C27EAE8A90006086F /* Frameworks */,
 				0150153D27EAE8A90006086F /* Resources */,
+				492CB5279D9D2444952060F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +172,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		492CB5279D9D2444952060F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Github-mobile/Pods-Github-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Github-mobile/Pods-Github-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Github-mobile/Pods-Github-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF612E743D7C7A5956EAFD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Github-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0150153B27EAE8A90006086F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,7 +223,9 @@
 				0150155A27EAF4AD0006086F /* FavoriteListVC.swift in Sources */,
 				0150155C27EB0DB70006086F /* GFButton.swift in Sources */,
 				0150155827EAF47A0006086F /* SearchVC.swift in Sources */,
+				0148775B27EC9D78009FA128 /* FollowerListVC.swift in Sources */,
 				0150154327EAE8A90006086F /* AppDelegate.swift in Sources */,
+				0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */,
 				0150154527EAE8A90006086F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +360,7 @@
 		};
 		0150155427EAE8AB0006086F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B93445555E9649A45DD787 /* Pods-Github-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +390,7 @@
 		};
 		0150155527EAE8AB0006086F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9B18D56D999F006FB25034 /* Pods-Github-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

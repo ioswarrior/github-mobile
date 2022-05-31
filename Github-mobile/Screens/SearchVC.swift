@@ -30,7 +30,7 @@ class SearchVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func createDismissKeyboardTapGesture() {
@@ -83,7 +83,7 @@ class SearchVC: UIViewController {
         
         usernameTextField.snp.makeConstraints { make in
             make.top.equalTo(logoImageView.snp.bottom).offset(48)
-            make.leading.trailing.equalToSuperview().inset(50)
+            make.leading.trailing.equalToSuperview()    .inset(50)
             make.height.equalTo(50)
         }
     }
@@ -100,7 +100,7 @@ class SearchVC: UIViewController {
         //        ])
         
         callToActionButton.snp.makeConstraints { make in
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-50)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(50)
             make.leading.trailing.equalToSuperview().inset(50)
             make.height.equalTo(50)
         }

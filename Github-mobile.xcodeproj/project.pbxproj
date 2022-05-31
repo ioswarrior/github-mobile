@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0132CECE28461BE400D9BB00 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0132CECD28461BE400D9BB00 /* info.plist */; };
 		0148775B27EC9D78009FA128 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775A27EC9D78009FA128 /* FollowerListVC.swift */; };
 		0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775C27ECB71D009FA128 /* String+Ext.swift */; };
 		0150154327EAE8A90006086F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150154227EAE8A90006086F /* AppDelegate.swift */; };
@@ -21,10 +22,13 @@
 		017695BD2823E5F100C2E4EC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017695BC2823E5F100C2E4EC /* GFBodyLabel.swift */; };
 		017695BF2823E6AF00C2E4EC /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017695BE2823E6AF00C2E4EC /* GFAlertVC.swift */; };
 		017695C12823EF9900C2E4EC /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017695C02823EF9900C2E4EC /* UIViewController + Ext.swift */; };
+		01EC9AE9282A6824000F6916 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC9AE8282A6824000F6916 /* Follower.swift */; };
+		01EC9AEB282A68CB000F6916 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC9AEA282A68CB000F6916 /* User.swift */; };
 		669955689F379EB19685A9B6 /* Pods_Github_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84FD2BB5937E20D5B7C3226 /* Pods_Github_mobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0132CECD28461BE400D9BB00 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		0148775A27EC9D78009FA128 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0148775C27ECB71D009FA128 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		0150153F27EAE8A90006086F /* Github-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,7 +36,6 @@
 		0150154427EAE8A90006086F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0150154B27EAE8AB0006086F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0150154E27EAE8AB0006086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0150155027EAE8AB0006086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0150155627EAF26F0006086F /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		0150155727EAF47A0006086F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		0150155927EAF4AD0006086F /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
@@ -42,6 +45,8 @@
 		017695BC2823E5F100C2E4EC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		017695BE2823E6AF00C2E4EC /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		017695C02823EF9900C2E4EC /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
+		01EC9AE8282A6824000F6916 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		01EC9AEA282A68CB000F6916 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7F9B18D56D999F006FB25034 /* Pods-Github-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-mobile.release.xcconfig"; path = "Target Support Files/Pods-Github-mobile/Pods-Github-mobile.release.xcconfig"; sourceTree = "<group>"; };
 		98B93445555E9649A45DD787 /* Pods-Github-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-mobile.debug.xcconfig"; path = "Target Support Files/Pods-Github-mobile/Pods-Github-mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		B84FD2BB5937E20D5B7C3226 /* Pods_Github_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,10 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0132CECB284618FB00D9BB00 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0150154427EAE8A90006086F /* SceneDelegate.swift */,
+				0150154227EAE8A90006086F /* AppDelegate.swift */,
+				0150154B27EAE8AB0006086F /* Assets.xcassets */,
+				0150154D27EAE8AB0006086F /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		0150153627EAE8A90006086F = {
 			isa = PBXGroup;
 			children = (
 				0150154127EAE8A90006086F /* Github-mobile */,
+				0132CECB284618FB00D9BB00 /* Support */,
 				0150154027EAE8A90006086F /* Products */,
 				2792DACC3113D49417F6D37E /* Pods */,
 				3E076CB03412B59EFA2EF2F0 /* Frameworks */,
@@ -80,19 +97,14 @@
 		0150154127EAE8A90006086F /* Github-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				01EC9AE7282A6815000F6916 /* Model */,
+				01FD30D32829405100938340 /* Screens */,
 				017695B92823E4C200C2E4EC /* Custom UI elements */,
-				0150154227EAE8A90006086F /* AppDelegate.swift */,
-				0150154427EAE8A90006086F /* SceneDelegate.swift */,
-				0150155927EAF4AD0006086F /* FavoriteListVC.swift */,
-				0150155727EAF47A0006086F /* SearchVC.swift */,
 				017695BE2823E6AF00C2E4EC /* GFAlertVC.swift */,
-				0148775A27EC9D78009FA128 /* FollowerListVC.swift */,
 				0148775C27ECB71D009FA128 /* String+Ext.swift */,
-				0150154B27EAE8AB0006086F /* Assets.xcassets */,
-				0150154D27EAE8AB0006086F /* LaunchScreen.storyboard */,
-				0150155027EAE8AB0006086F /* Info.plist */,
 				0150155627EAF26F0006086F /* .gitignore.md */,
 				017695C02823EF9900C2E4EC /* UIViewController + Ext.swift */,
+				0132CECD28461BE400D9BB00 /* info.plist */,
 			);
 			path = "Github-mobile";
 			sourceTree = "<group>";
@@ -106,6 +118,25 @@
 				017695BA2823E4F700C2E4EC /* GFTitleLabel.swift */,
 			);
 			path = "Custom UI elements";
+			sourceTree = "<group>";
+		};
+		01EC9AE7282A6815000F6916 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01EC9AE8282A6824000F6916 /* Follower.swift */,
+				01EC9AEA282A68CB000F6916 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01FD30D32829405100938340 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0148775A27EC9D78009FA128 /* FollowerListVC.swift */,
+				0150155927EAF4AD0006086F /* FavoriteListVC.swift */,
+				0150155727EAF47A0006086F /* SearchVC.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		2792DACC3113D49417F6D37E /* Pods */ = {
@@ -187,6 +218,7 @@
 			files = (
 				0150154F27EAE8AB0006086F /* LaunchScreen.storyboard in Resources */,
 				0150154C27EAE8AB0006086F /* Assets.xcassets in Resources */,
+				0132CECE28461BE400D9BB00 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +277,9 @@
 				0150155827EAF47A0006086F /* SearchVC.swift in Sources */,
 				017695BF2823E6AF00C2E4EC /* GFAlertVC.swift in Sources */,
 				0148775B27EC9D78009FA128 /* FollowerListVC.swift in Sources */,
+				01EC9AEB282A68CB000F6916 /* User.swift in Sources */,
 				0150154327EAE8A90006086F /* AppDelegate.swift in Sources */,
+				01EC9AE9282A6824000F6916 /* Follower.swift in Sources */,
 				017695BD2823E5F100C2E4EC /* GFBodyLabel.swift in Sources */,
 				0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */,
 				017695BB2823E4F700C2E4EC /* GFTitleLabel.swift in Sources */,

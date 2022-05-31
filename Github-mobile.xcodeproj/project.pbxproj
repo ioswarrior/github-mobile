@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0132CECE28461BE400D9BB00 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0132CECD28461BE400D9BB00 /* info.plist */; };
+		0132CED128461EDD00D9BB00 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CED028461EDD00D9BB00 /* NetworkManager.swift */; };
 		0148775B27EC9D78009FA128 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775A27EC9D78009FA128 /* FollowerListVC.swift */; };
 		0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148775C27ECB71D009FA128 /* String+Ext.swift */; };
 		0150154327EAE8A90006086F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150154227EAE8A90006086F /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0132CECD28461BE400D9BB00 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		0132CED028461EDD00D9BB00 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0148775A27EC9D78009FA128 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0148775C27ECB71D009FA128 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		0150153F27EAE8A90006086F /* Github-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,14 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		0132CECF28461EC700D9BB00 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0132CED028461EDD00D9BB00 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		0150153627EAE8A90006086F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		0150154127EAE8A90006086F /* Github-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				0132CECF28461EC700D9BB00 /* Managers */,
 				01EC9AE7282A6815000F6916 /* Model */,
 				01FD30D32829405100938340 /* Screens */,
 				017695B92823E4C200C2E4EC /* Custom UI elements */,
@@ -283,6 +294,7 @@
 				017695BD2823E5F100C2E4EC /* GFBodyLabel.swift in Sources */,
 				0148775D27ECB71D009FA128 /* String+Ext.swift in Sources */,
 				017695BB2823E4F700C2E4EC /* GFTitleLabel.swift in Sources */,
+				0132CED128461EDD00D9BB00 /* NetworkManager.swift in Sources */,
 				0150154527EAE8A90006086F /* SceneDelegate.swift in Sources */,
 				017695C12823EF9900C2E4EC /* UIViewController + Ext.swift in Sources */,
 			);
